@@ -1,0 +1,8 @@
+SpeechRecognition
+# PyAudio is a dependency of SpeechRecognition for microphone access.
+# Its installation can be platform-specific. 
+# Users might need to install it separately if `pip install SpeechRecognition` doesn't handle it.
+# See SpeechRecognition docs for PyAudio troubleshooting if needed.
+google-generativeai
+python-dotenv
+tkinter
