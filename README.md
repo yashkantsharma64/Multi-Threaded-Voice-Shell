@@ -2,9 +2,6 @@
 
 **(Powered by Python, Tkinter, SpeechRecognition, and Google Gemini AI)**
 
-![VoiceOS Shell Demo GIF](https://i.imgur.com/YOUR_DEMO_GIF_HERE.gif) 
-*(Recommendation: Create a short GIF showcasing the voice commands and GUI, then replace the placeholder link above. Tools like Giphy Capture, ScreenToGif, or Kap are great for this.)*
-
 ---
 
 ## 🚀 Overview
@@ -75,9 +72,9 @@ Beyond voice, it functions as a traditional terminal, allowing typed commands an
     ```bash
     pip install -r requirements.txt 
     ```
-    *(If a `requirements.txt` is not provided, install manually):*
+    *(or install manually):*
     ```bash
-    pip install SpeechRecognition PyAudio google-generativeai python-dotenv Pillow
+    pip install SpeechRecognition PyAudio google-generativeai python-dotenv
     ```
     *   **PyAudio Notes**: Installation can sometimes be tricky.
         *   On **Linux**: You might need `sudo apt-get install python3-pyaudio portaudio19-dev`
